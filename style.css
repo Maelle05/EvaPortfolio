@@ -1,0 +1,299 @@
+*{
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'NouvelleVague';  /* Titres */
+    src: url(assets/fonts/nouvelle_vague_final.woff);
+}
+
+@font-face{
+    font-family: 'Akira';  /* Bold Text */
+    src: url(assets/fonts/AkiraExpanded-SuperBold.woff);
+}
+
+:root { 
+    --bg-color: #D0CDFF ; 
+    --color-B: #FFFFFF;
+    --color-N: #000000;
+} 
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Akira';
+}
+
+/* MENU */
+
+.menuContainer{
+    position: fixed;
+    /* background-color: var(--bg-color); */
+    z-index: 50;
+}
+
+
+.menuList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 10vh;
+    z-index: 30;
+}
+
+.menuList a {
+    text-decoration: none; 
+    color: var(--color-N) ;
+    /* transition-duration: 500ms;
+    transition-property: var(--color-B); */
+    margin-left: 11vw;
+    /* background-color: var(--bg-color); */
+}
+
+.menuList a:hover{
+    color: var(--color-B);
+}
+
+.menuActive a{
+    font-family: 'NouvelleVague';
+    color: var(--color-B) !important;
+    font-size: xx-large;
+}
+
+/* HOME */
+
+.presHome{
+    display: flex;
+    flex-direction: row;
+    margin-top: 22vh;
+    justify-content: center;
+}
+
+.Eva{
+    font-family: 'NouvelleVague';
+    text-transform: uppercase;
+    font-size: 7vw;
+    margin-left: -16vw;
+    z-index: 1 !important;
+}
+
+.EvaVanDerErve h1 {
+    padding-top: -4.5vh;
+}
+
+span{
+    color: var(--color-B);
+    z-index: 25;
+}
+
+.HomeTextImg{
+    width: 35vw;
+    z-index: 0 !important;
+    margin-left: 20vw;
+}
+
+.HomeTextImg .Text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.HomeTextImg .Text h2{
+    font-size: 0.7vw;
+}
+
+.HomeTextImg .img {
+    background-image: url(assets/imgs/Deco/photoMenu.JPG);
+    width: 35vw;
+    height: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+/* PHOTO - Design - Vidéo */
+
+.partDes h1{
+    font-family: 'NouvelleVague';
+    text-transform: uppercase;
+}
+
+.EvaContact{
+    width: 13vw;
+}
+
+.container{
+    margin-top: 23vh;
+    margin-bottom: 13vh;
+}
+
+.partDes{
+    position: fixed;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.partDes h1{
+    font-size: 5vw;
+}
+
+.Description{
+    display: flex;
+    flex-direction: row;
+}
+
+.Description p {
+    margin-left: -5vw;
+    font-size: xx-small;
+    margin-top: 12vh;
+}
+
+.work{
+    margin-left: 55%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.work img {
+    width: 20vw;
+    margin-right: 5vw;
+}
+
+.work p {
+    margin-top: 20vh;
+}
+
+/* Contact  */
+
+.imgContact{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    z-index: -2;
+    margin-left: 60%;
+}
+
+.textContact{
+    margin-top: 35vh;
+    width: 58vw;
+}
+
+.titreContact{
+    font-family: 'NouvelleVague';
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+
+.textContact .p1{
+    font-size: x-large;
+}
+
+.textContact p{
+    font-size: x-small;
+    float: right;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.row div {
+    margin: 1.5vw;
+}
+
+.textContact h1{
+    margin-top: 10vh;
+    float: right;
+    font-size: 7vw;
+    margin-right: -12vw;
+}
+
+.textContact a {
+    text-decoration: none;
+    color: var(--color-N);
+}
+
+.textContact img{
+    width: 3vw;
+    height: 3vw;
+    margin-left: 30%;
+}
+
+/* Work */
+
+.partWork{
+    text-transform: uppercase;
+    font-family: 'NouvelleVague';
+    position: static;
+    opacity: 70%;
+    font-size: 5vw;
+}
+
+.AAAAA{
+    width: 50%;
+}
+
+.containerWork{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10vw;
+    margin-top: 20vh;
+}
+
+.DescriptionWork{
+    position: fixed;
+    top: 50vh;
+    left: 10vw;
+}
+
+.DescriptionWork h1{
+    margin-top: 25vh;
+}
+
+.DescriptionWork p{
+    float: right;
+}
+
+.contenu1 img {
+    width: 20vw;
+    float: right;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+}
+
+.contenu2{
+    margin-top: 20vh;
+}
+
+.contenu2 img {
+    width: 20vw;
+    margin-bottom: 1vh;
+}
+
+/* Vidéo */
+
+.work .video{
+    margin-top: 10vh;
+}
+
+.AAAAA{
+    width: 35%;
+}
+
+iframe{
+    margin-top: 7vh;
+}
+
+.AAAAAA{
+    width: 50%;
+}
+
+.AAAAAAAAA{
+    width: 40vw;
+}
