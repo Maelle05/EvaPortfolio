@@ -16,7 +16,7 @@
 }
 
 :root { 
-    --bg-color: #D0CDFF ; 
+    --bg-color: #C3C0FF ; 
     --color-B: #FFFFFF;
     --color-N: #000000;
 } 
@@ -48,8 +48,9 @@ body{
     color: var(--color-N) ;
     /* transition-duration: 500ms;
     transition-property: var(--color-B); */
-    margin-left: 12.5vw;
+    margin-left: 10vw;
     /* background-color: var(--bg-color); */
+    font-size: 1.5vw;
 }
 
 .menuList a:hover{
@@ -59,7 +60,8 @@ body{
 .menuActive a{
     font-family: 'NouvelleVague';
     color: var(--color-B) !important;
-    font-size: xx-large;
+    font-size: 2vw;
+    text-transform: uppercase;
 }
 
 /* HOME */
@@ -77,6 +79,18 @@ body{
     font-size: 7vw;
     margin-left: -16vw;
     z-index: 1 !important;
+    padding-top: -2vh;
+    line-height: 5vw;
+}
+
+.Evap1{
+    letter-spacing: 1vw;
+    color: #000000;
+}
+
+.Evap2{
+    letter-spacing: 0.8vw;
+    color: #000000;
 }
 
 .EvaVanDerErve h1 {
@@ -101,7 +115,7 @@ span{
 }
 
 .HomeTextImg .Text h2{
-    font-size: 0.7vw;
+    font-size: 0.85vw;
 }
 
 .HomeTextImg .img {
@@ -119,6 +133,7 @@ span{
 .partDes h1{
     font-family: 'NouvelleVague';
     text-transform: uppercase;
+    line-height: 7vh;
 }
 
 .EvaContact{
@@ -147,7 +162,7 @@ span{
 
 .Description p {
     margin-left: -5vw;
-    font-size: xx-small;
+    font-size: normal;
     margin-top: 12vh;
 }
 
@@ -193,7 +208,7 @@ span{
 }
 
 .textContact p{
-    font-size: x-small;
+    font-size: small;
     float: right;
 }
 
@@ -222,7 +237,10 @@ span{
 .textContact img{
     width: 3vw;
     height: 3vw;
-    margin-left: 30%;
+}
+
+.linksContact img{
+    margin-left: 25%;
 }
 
 /* Work */
@@ -231,7 +249,7 @@ span{
     text-transform: uppercase;
     font-family: 'NouvelleVague';
     position: static;
-    opacity: 70%;
+   /* opacity: 70%; */
     font-size: 5vw;
 }
 
@@ -276,6 +294,19 @@ span{
     margin-bottom: 1vh;
 }
 
+.imgDesign{
+    margin-left: 30vw;
+    margin-bottom: 5vh;
+}
+
+.imgDesign img {
+    width: 50vw;
+}
+
+.imgD2{
+    margin-top: -2vh;
+}
+
 /* Vidéo */
 
 .work .video{
@@ -296,4 +327,23 @@ iframe{
 
 .AAAAAAAAA{
     width: 40vw;
+}
+
+.mobileweat{
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+    .mobileweat{
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background-color: var(--bg-color) !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1000;
+    }
 }
