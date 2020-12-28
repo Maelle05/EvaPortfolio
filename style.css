@@ -67,6 +67,9 @@ body{
 /* HOME */
 
 .presHome{
+    position: absolute;
+    left: 20vw;
+    top:6vh;
     display: flex;
     flex-direction: row;
     margin-top: 22vh;
@@ -272,6 +275,7 @@ span{
     position: fixed;
     top: 40vh;
     left: 10vw;
+    width: 30vw;
 }
 
 .factori{
@@ -306,7 +310,7 @@ span{
 }
 
 .imgDesign{
-    margin-left: 30vw;
+    margin-left: 35vw;
     margin-bottom: 5vh;
 }
 
