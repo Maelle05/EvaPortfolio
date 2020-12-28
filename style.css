@@ -243,6 +243,10 @@ span{
     margin-left: 25%;
 }
 
+.cvCursor{
+    cursor: pointer;
+}
+
 /* Work */
 
 .partWork{
@@ -266,16 +270,23 @@ span{
 
 .DescriptionWork{
     position: fixed;
-    top: 50vh;
+    top: 40vh;
     left: 10vw;
 }
 
+.factori{
+    top: 30vh;
+}
+
 .DescriptionWork h1{
-    margin-top: 25vh;
+    position: absolute;
+    top: 35vh;
+    /* margin-top: 25vh; */
 }
 
 .DescriptionWork p{
-    float: right;
+    /* float: right; */
+    text-align: right;
 }
 
 .contenu1 img {
