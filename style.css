@@ -213,6 +213,7 @@ span{
     font-family: 'NouvelleVague';
     text-transform: uppercase;
     font-size: 5vw;
+    margin-top: 25vh !important;
 }
 
 .textContact .p1{
