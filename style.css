@@ -200,35 +200,28 @@ span{
     margin-left: 55%;
 }
 
-.rowContact{
-    margin-right: 10%;
+.textContact{
+    position: relative;
+    top: 35vh;
+    width: 40%;
+    left: 21.1%;
 }
 
-.textContact{
-    margin-top: 35vh;
-    width: 58vw;
+.textContact p{
+   text-align: right;
+   line-height: 5vh;
 }
 
 .titreContact{
     font-family: 'NouvelleVague';
     text-transform: uppercase;
-    font-size: 5vw;
-    margin-top: 23vh !important;
-}
-
-.textContact .p1{
-    font-size: x-large;
-}
-
-.textContact p{
-    font-size: small;
-    float: right;
+    float: none !important;
+    margin-top: 13vh;
 }
 
 .row{
     display: flex;
     flex-direction: row;
-    float: right;
 }
 
 .row div {
@@ -236,15 +229,11 @@ span{
 }
 
 .textContact h1{
-    margin-top: 10vh;
-    float: right;
-    font-size: 7vw;
-    margin-right: -12vw;
+    font-size: 8vw;
 }
 
-.textContact a {
-    text-decoration: none;
-    color: var(--color-N);
+.textContact span{
+    margin-left: 1vw;
 }
 
 .textContact img{
@@ -416,8 +405,16 @@ iframe{
     }
 
     .textContact{
-        margin-top: 5vh;
         margin-left: 25vw;
+        top: 12vh;
+        left: 0%;
+        width: 50%;
+    }
+
+    .textContact p{
+        text-align: left;
+        line-height: 3vh;
+        font-size: 2vw;
     }
 
     .textContact .p1{
@@ -434,7 +431,6 @@ iframe{
     .row{
         flex-direction: column;
         float: none;
-        margin-top: 15vh;
         margin-left: 20vw;
     }
 
