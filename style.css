@@ -194,10 +194,14 @@ span{
 
 .imgContact{
     position: absolute;
-    width: 40%;
+    width: 45%;
     height: 100%;
     z-index: -2;
-    margin-left: 60%;
+    margin-left: 55%;
+}
+
+.rowContact{
+    margin-right: 10%;
 }
 
 .textContact{
@@ -252,7 +256,8 @@ span{
 }
 
 .cvCursor{
-    cursor: pointer;
+    /* cursor: pointer; */
+    opacity: 0;
 }
 
 /* Work */
